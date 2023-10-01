@@ -1,0 +1,58 @@
+
+body {
+    background-color: #fba4cb;
+    text-align: center;
+}
+
+div.page-container {
+    max-width: 40%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+h1.title {
+    color: white;
+    font-size: 4rem;
+    font-weight:bold;
+}
+
+h1.title:hover {
+    color: black;
+}
+
+p.subtitle {
+    color: white ;
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+div.author {
+    margin-top: 2rem;
+    color: white ;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+div.sentence li {
+    text-align: left;
+    font-size: 1.3rem;
+    font-weight:900 ;
+    margin-top: 1rem;
+}
+
+img.portrate {
+    width: 50%;
+}
+
+div.quote {
+    margin-top: 2rem;
+    color: white;
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+
+div.footer {
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
