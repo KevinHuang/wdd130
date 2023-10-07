@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Neuton&family=Roboto&family=Rock+Salt&display=swap');
+
 html {
     padding: 0px;
 }
@@ -16,22 +18,38 @@ main section {
 
 #background {
     height: 725px;
-    background-color: #dbc4a3;;
+    background-color: #dbc4a3;
+}
+
+.button-box {
+    
 }
 
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 
 .logo {
     width: 80px;
 }
 
-body {
-    background-color: #fcfbfb; 
-    padding: 0px;
-    margin: 0px;
+#logo_link {
+    padding-top: 5px;
 }
+
+body {
+    background-color: #fcfbfb;
+    font-family: Raleway, Arial, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    margin: 0;
+}
+
 header {
     background-color:rgba(20,30,13, .7);
     padding: 0.5rem 1rem
@@ -40,6 +58,7 @@ nav a {
     text-align: center;
     color: #fcfbfb;
     text-decoration: none;
+    padding: 35px;
 }  
 nav a:hover {
     background-color: black;
@@ -57,6 +76,16 @@ nav a:hover {
 .book, .join,
 footer a {
     text-decoration: none;
+}
+
+.book, .join {
+    background-color: #d9c2a3;
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 img.mountains {
@@ -77,6 +106,8 @@ a.join, a.book {
 footer {
     background-color: rgba(20,30,13, .7);
     color:  #dbc4a3;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
 footer p {
@@ -90,3 +121,40 @@ footer p a {
 footer p a:hover {
     text-decoration: underline;
 }  
+
+footer .social img {
+    padding-top: 15px;
+}
+
+.home-title {
+    font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
+    color:  #dbc4a3;
+}
+
+.msg {
+    background-color: #6f7364;
+    line-height: 1.5em;
+    padding: 35px;
+}
+
+.msg p {
+    padding-bottom: 15px;
+}
+
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+
+.card-img {
+    border: 10px solid #d9c2a3;
+}
+
+main section img {
+    box-sizing: border-box;
+}
+
+.mountains {
+    margin: 8em 0 16rem 0;
+}
