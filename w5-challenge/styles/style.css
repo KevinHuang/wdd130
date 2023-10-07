@@ -1,0 +1,27 @@
+
+body {
+    margin: 0;
+    background-color: #737373;
+}
+
+header {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.header_image {
+    width: 100%;
+}
+
+.main_section {
+    background-color: #737373;
+    text-align: center;
+}
+
+.main_img {
+    width: 20% ;
+    border-radius: 50%;
+    border: 10px solid #444444 ;
+    margin: 2rem
+}
